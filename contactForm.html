@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+
+    <body>
+        <h1>Contact Form</h1>
+        
+        <p>Fill out the form below with your contact information.</p>
+
+        <form>
+            <label for="name">Enter name: </label>
+            <input type="text" name="name" id="name" placeholder="enter your name" required>
+
+            <br><br>
+
+            <label for="email">Enter email: </label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+
+            <br><br>
+
+            <label for="request">I would like to receive emails with news (check if yes). </label>
+            <input type="checkbox" name="request" id="request">
+
+            <br><br>
+
+            <label for="color">Favorite color: </label>
+            <input type="color" name="color" id="color">
+
+            <br><br>
+
+            <label for="birthday">Birthday: </label>
+            <input type="date" name="birthday" id="birthday">
+
+            <br><br>
+
+            <label for="website">Your website URL: </label>
+            <input type="url" name="website" id="website" placeholder="enter your website's url">
+
+            <br><br>
+
+            <label for="bio">Write your bio here:</label>
+            <br>
+            <textarea cols="60" rows="20" name="bio" id="bio" placeholder="Write a bit about yourself..."></textarea>
+
+            <br><br>
+
+            <input type="reset">
+
+            <input type="submit" value="Submit Form">
+
+        </form>
+    </body>
+</html>
