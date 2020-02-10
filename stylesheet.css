@@ -1,0 +1,54 @@
+ body {
+     background-color: #272727;
+ }
+
+div.top {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+span {
+    margin: 20px;
+    padding: 20px;
+    color: #fda5d7;
+    font-style: italic;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+div {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #f8f8f6;
+    margin: 20px;
+}
+
+.coverimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a[href] {
+    color: #f8f8f6;
+}
+
+input {
+   background-color: #424242;
+   color: #aaaaaa;
+}
+
+textarea {
+    background-color: #424242;
+    color: #aaaaaa;
+}
+
+div.intro p.cascade {
+    color: purple;
+}
+
+.top .cascade {
+    color: red;
+}
+
+.top .cascade {
+    color: inherit;
+}
